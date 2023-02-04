@@ -1,0 +1,61 @@
+/*  21 September 2022 */
+
+@media only screen and (max-width: 850px) {
+    .admin_account_login .logo_container img {
+        width: 0;
+    }
+    .admin_account_login .logo_container {
+        height: 85px;
+        background-image: url(https://i.imgur.com/Pj3Ege2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #login_container {
+        max-width: 400px;
+        min-width: 400px;
+        margin: 70px auto;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    input {
+        font-size: 16px;
+        border: 0 !important;
+        height: 50px;
+        border-radius: 10px;
+        box-shadow: none !important;
+    }
+    label {
+        font-weight: bold;
+        color: #000;
+    }
+    button.color-blue.btn {
+        border-radius: 30px;
+        width: 50%;
+        height: 45px;
+        margin: 15px 25%;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .nav-tabs {
+        border-bottom: 0 !important;
+    }
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:hover,
+    .nav-tabs>li.active>a:focus {
+        color: #000;
+        cursor: default;
+        border: 0 !important;
+        box-shadow: none !important;
+        background: none !important;
+        border-bottom: 2px solid #ecf0f6 !important;
+    }
+    .nav-tabs>li>a {
+        margin-right: 2px;
+        border: 0 !important;
+        border-radius: 0 !important;
+        color: #a7a7a7 !important;
+        box-shadow: none !important;
+        border-bottom: 0 !important;
+    }
+}

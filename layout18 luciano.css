@@ -1,0 +1,77 @@
+/* Home background */
+ion-view.pane.has-background-image {
+    background: #fff !important;
+}
+
+/* Layout 18 */
+.layout.layout_siberian_18:before {
+    content: "Keunggulan Kami";
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 1.9em;
+    letter-spacing: 0px;
+    background-color: #384780;
+    border-radius: 10px 10px 10px 10px;
+    width: 96%;
+    margin: 0 2% 10px 2%;
+}
+
+.layout.layout_siberian_18 {
+    position: absolute;
+    top: 37vh !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+div.new_slider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 96%;
+    margin: 2vh 2% 0 2% !important;
+    border-radius: 10px;
+}
+
+.layout.layout_siberian_18 .item {
+    border-width: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    background: #ecf0f6;
+    height: 230px;
+    margin: 10px 2%;
+    border-radius: 10px;
+}
+
+.layout.layout_siberian_18 .item img {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 98%;
+    max-height: 80% !important;
+    left: 0;
+    height: 80% !important;
+    min-height: 80% !important;
+    object-fit: cover;
+    border-radius: 9px !important;
+    top: 0 !important;
+}
+
+.layout.layout_siberian_18 .item h2 {
+    color: #000;
+    padding: 0 !important;
+    text-transform: uppercase;
+    margin: 0 0 10px 0 !important;
+    font-weight: bold;
+}

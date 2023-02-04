@@ -1,0 +1,182 @@
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content .list>.item.item-custom.item-body.location-body.remove-border button[ng-click="bookNow()"] {
+    display: none;
+
+}
+
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include {
+    display: flex;
+    flex-direction: column;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(2) {
+    order: 2;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(1) {
+    order: 1;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(3) {
+    order: 3;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(1) .list>.item.item-custom.remove-border {
+    padding: 0 !important;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(1) .item.item-custom.remove-border {
+    padding: 0;
+    border: 0 !important;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(1) .item.item-custom.remove-border button {
+    border: 0 !important;
+    border-radius: 0 !important;
+    height: 150px !important;
+    font-weight: bold;
+    font-size: 33px !important;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include>.tabs.tabs-custom.location-tabs {
+    display: none;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include .list {
+    padding: 0;
+    margin: 0;
+}
+
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(2) .item.item-custom.remove-border .row:nth-child(n+4) .col-50.ng-binding {
+    font-size: 0;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(2) .item.item-custom.remove-border .row {
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(2) .item.item-custom.remove-border .row:nth-child(n+4) .col-50.ng-binding:after {
+    content: "23:00 04:00";
+    font-size: 22px;
+}
+
+
+/* Choose a date and time */
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(4)>td:nth-child(4),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(4)>td:nth-child(5),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(4)>td:nth-child(6),
+
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(5)>td:nth-child(4),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(5)>td:nth-child(5),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(5)>td:nth-child(6),
+
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(6)>td:nth-child(4),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(6)>td:nth-child(5),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(6)>td:nth-child(6),
+
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(7)>td:nth-child(4),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(7)>td:nth-child(5),
+ion-view.appointmentpro.appointmentpro-calendar ion-content#item-content .scroll>.list div#calendar>table.active>tr:nth-child(7)>td:nth-child(6) {
+    background-color: green;
+    color: #fff;
+    font-size: 26px;
+    opacity: 1;
+    border: 2px solid #e5e5e5;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .item.item-divider.item-divider-custom.remove-border.text-center.ng-binding {
+    display: none;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .part-time-available .row.item.item-divider.item-divider-custom.text-center.remove-border {
+    display: none;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .row.item.item-custom.time-slots.text-center.remove-border {
+    padding: 0;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .part-time-available .row.item.item-custom.time-slots.text-center.remove-border .col.col-33:nth-child(-n+2) {
+    display: none;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .part-time-available .row.item.item-custom.time-slots.text-center.remove-border .col.col-33:nth-last-child(1) {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    background-color: rgba(56, 126, 245, 1);
+    opacity: 1;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .part-time-available .row.item.item-custom.time-slots.text-center.remove-border .col.col-33:nth-last-child(1) a.ng-binding:after {
+    content: "CONFIRM";
+    font-size: 25px !important;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .part-time-available .row.item.item-custom.time-slots.text-center.remove-border .col.col-33:nth-last-child(1)>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+}
+
+ion-view.appointmentpro.appointmentpro-calendar .list .part-time .list .part-time-available .row.item.item-custom.time-slots.text-center.remove-border .col.col-33:nth-last-child(1) a.ng-binding {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    min-height: 100% !important;
+    color: #fff !important;
+    font-size: 0 !important;
+    font-weight: bold;
+}
+
+/* Confirm */
+ion-modal-view.appointmentpro.appointmentpro-confirm-booking ion-content#appointmentpro-content .list>div:nth-child(4),
+ion-modal-view.appointmentpro.appointmentpro-confirm-booking ion-content#appointmentpro-content .list>div:nth-child(5) {
+    display: none;
+}
+
+ion-modal-view.appointmentpro.appointmentpro-confirm-booking ion-content#appointmentpro-content label.item.item-custom.remove-border {
+    padding: 0;
+}
+
+ion-modal-view.appointmentpro.appointmentpro-confirm-booking ion-content#appointmentpro-content label.item.item-custom.remove-border button {
+    margin: 0;
+    height: 66px;
+    border: 0 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(1) .item.item-custom.remove-border button:after {
+    content: "BOOK NOW";
+    font-size: 35px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-view.appointmentpro.appointmentpro-home ion-content#item-content>.scroll ng-include ng-include ng-include .list:nth-last-child(1) .item.item-custom.remove-border button {
+    border: 0 !important;
+    border-radius: 0 !important;
+    height: 150px !important;
+    font-weight: bold;
+    font-size: 0;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+}

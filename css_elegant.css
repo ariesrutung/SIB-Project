@@ -1,0 +1,104 @@
+/* How to use */
+/* Pilih layout elegant */
+/* Di bagian layout option, isi teks atau nama app yang akan ditampilkan */
+/* Untuk mengubah warna latar belakang, cari skrip ion-view[state="home"] dan sesuaikan warna yang dipakai sesuai dengan kebutuhan */
+/* Untuk menambahkan gambar di bagian atas, cari skrip .layout.layout_elegant.animated.no-animation p.elegantwelcome.ng-binding:before, kemudian ganti link background image sesuai dengan kebutuhan*/
+/* Menu yang berada di posisi terakhir akan dijadikan button statis yang menampilkan tulisan We Are Here atau teks lain sesuai kebutuhan */
+/* Isi dari setiap menu silakan sesuaikan sendiri */
+/* CSS ini hanya mengubah tampilan homepage */
+
+
+/* LAYOUT ELEGANT */
+/* warna background */
+ion-view[state="home"] {
+    background-color: #00281f !important;
+    background-image: none !important;
+    background: rgb(3,80,79);
+    background: linear-gradient(90deg, rgba(3,80,79,1) 0%, rgba(1,68,66,1) 100%) !important;
+}
+
+.layout.layout_elegant.animated.no-animation {
+    margin: 0 !important;
+}
+
+/* tulisan welcome message */
+.layout.layout_elegant.animated.no-animation p.elegantwelcome.ng-binding {
+    height: 225px;
+    background-color: #00281f;
+    margin-top: 0;
+    color: #fff !important;
+    font-weight: bold;
+    border-bottom-left-radius: 100% 35px;
+    /* border-bottom-right-radius: 100% 50px; */
+    padding-top: 25px;
+}
+
+/* Gambar di bagian atas welcome message */
+.layout.layout_elegant.animated.no-animation p.elegantwelcome.ng-binding:before {
+    content: " ";
+    display: block !important;
+    background-image: url(https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 70px !important;
+    margin-bottom: 13px;
+}
+
+.layout.layout_elegant .elegantbutton {
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 0 !important;
+    margin: 10px 25px;
+}
+
+.layout.layout_elegant .eleganticon {
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #fff;
+    width: 40px;
+    display: none;
+}
+
+.layout.layout_elegant .eleganttitle p {
+    color: #000000 !important;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* menu terakhir */
+.layout.layout_elegant .elegantbutton:last-child {
+    height: 150px;
+    margin: 30px 5% 0 5%;
+    background-color: #76e6b5 !important;
+    width: 90%;
+    border-radius: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.layout.layout_elegant .elegantbutton:last-child .eleganttitle p.ng-binding {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.layout.layout_elegant.animated.no-animation>div:nth-child(2) {
+    margin-top: -80px;
+}
+
+/* LAYOUT ELEGANT */
+

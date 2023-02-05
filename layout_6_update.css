@@ -1,0 +1,81 @@
+/* Ubah menu ke tengah */
+.layout.l6 ion-content {
+    height: 49% !important;
+}
+
+.layout.l6 ion-content .homepage-custom.border-custom {
+    padding-top: 0;
+    margin: 6px 2%;
+    width: 96%;
+    padding-bottom: 0;
+}
+
+/* Ubah tulisan ke tengah */
+.homepage .scroll .item.item-avatar h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Tulisan ke tengah di dalam subfolder */
+ion-view[state="folder2-category-list"] [ng-if="current.showTitle"] {
+    text-align: center;
+}
+
+ion-view[state="folder2-category-list"] .list.card a.item.item-custom.item-avatar-square.item-avatar.item-center {
+    padding: 0;
+}
+
+ion-view[state="folder2-category-list"] .list.card a.item.item-custom.item-avatar-square.item-avatar.item-center h2 {
+    text-align: center !important;
+    width: 100%;
+    padding: 0 !important;
+}
+
+ion-view[state="home"] div#homepage_slider div.new_slider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 96%;
+    margin: 6px 2% !important;
+}
+
+.layout.l6 ion-content .homepage-custom.border-custom {
+    padding: 0;
+    margin: 6px 2%;
+    width: 96%;
+}
+
+.homepage .scroll .item.item-avatar img {
+    border-radius: 0;
+    margin-left: 50px;
+}
+
+ion-view[state="folder2-category-list"] .list.card a.item.item-custom.item-avatar-square.item-avatar.item-center {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ion-view[state="folder2-category-list"] .list.card a.item.item-custom.item-avatar-square.item-avatar.item-center img {
+    margin-left: 35px;
+}
+
+ion-view[state="folder2-category-list"] .list.card {
+    box-shadow: none;
+}
+
+
+
+ion-view.links-view .list.padding .item.item-custom {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+ion-view.links-view .list.padding .button.button-custom img {
+    margin-left: 40px !important;
+}

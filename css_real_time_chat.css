@@ -1,0 +1,184 @@
+ion-modal-view ion-content.chatrooms .button.button-custom {
+    border: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+ion-view.chatrooms.pane.has-background-image ion-list.list:before {
+    content: " ";
+    background-image: url(https://img.freepik.com/free-vector/messages-concept-illustration_114360-583.jpg?w=360);
+    height: 192px;
+    display: block;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: contain;
+    width: 96%;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+ion-view.chatrooms.pane.has-background-image .list .item.item-custom {
+    background-color: #ecf0f6 !important;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    margin: 20px 0;
+    border-radius: 5px !important;
+    padding: 5px;
+}
+
+ion-view.chatrooms.pane.has-background-image .list .item.item-custom p.ng-binding {
+    white-space: normal;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+ion-view.chatrooms.pane.has-background-image .list .item.item-custom .col.col-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-popover-view.chatrooms.popover-custom.popover ion-content.chatrooms.popover-content-custom .item.item-custom.ng-binding {
+    background-color: #ecf0f6 !important;
+    background: none;
+    box-shadow: none;
+    border-radius: 5px !important;
+    margin: 5px;
+}
+
+.chatrooms.popover-custom {
+    height: 180px;
+    border-radius: 7px !important;
+}
+
+
+/* Comunity Description */
+
+ion-content.chatrooms form .item.item-custom.item-input {
+    background: none;
+    background-color: #ecf0f6;
+    border-radius: 10px !important;
+    box-shadow: none;
+}
+
+ion-content.chatrooms form p.padding-horizontal.ng-binding {
+    padding: 0;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+ion-content.chatrooms form span.h5.ng-binding {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0 0 0 !important;
+}
+
+ion-content.chatrooms form .padding-vertical {
+    padding: 16px 0 2px 0;
+}
+
+ion-content.chatrooms form .padding.text-center .button.button-custom {
+    border: 0;
+    color: #fff;
+    background: #f79b6a;
+    background: linear-gradient(90deg, #f79b6a 9%, #ed6219 100%);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* POPUP */
+
+.popup-container.active .popup {
+    border-radius: 15px !important;
+    box-shadow: none !important;
+}
+
+.platform-browser .popup-buttons,
+.platform-overview .popup-buttons,
+.platform-ios .popup-buttons,
+.platform-android .popup-buttons {
+    text-align: center !important;
+    background-color: transparent !important;
+    border-radius: 50px;
+    width: 100% !important;
+    margin: 10px 0 !important;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform-browser .popup .popup-head,
+.platform-overview .popup .popup-head,
+.platform-ios .popup .popup-head,
+.platform-android .popup .popup-head {
+    padding: 20px 20px 0;
+    border-bottom: 0;
+    text-align: center !important;
+    font-size: 22px;
+    font-weight: bold !important;
+}
+
+
+/* h3.popup-title.ng-binding:before {
+    content: " ";
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-image: url(https://ensiklopediakesaguan.com/wp-content/uploads/2021/04/checked.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.platform-browser .popup button.button:first-of-type,
+.platform-overview .popup button.button:first-of-type,
+.platform-ios .popup button.button:first-of-type,
+.platform-android .popup button.button:first-of-type {
+    text-align: center !important;
+    border-radius: 30px !important;
+    background: linear-gradient(90deg, #f79b6a 9%, #ed6219 100%) !important;
+    padding: 10px !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    margin: 0 17px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform-browser .popup button.button,
+.platform-overview .popup button.button,
+.platform-ios .popup button.button,
+.platform-android .popup button.button {
+    display: flex !important;
+    text-align: center !important;
+    padding: 10px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    margin: 0 18px !important;
+    justify-content: center;
+    align-items: center;
+    background: #f79b6a;
+    background: linear-gradient(90deg, #f79b6a 9%, #ed6219 100%) !important;
+}
+
+.platform-browser .popup .popup-body,
+.platform-overview .popup .popup-body,
+.platform-ios .popup .popup-body,
+.platform-android .popup .popup-body {
+    padding: 20px 20px 0 20px;
+    border-bottom: 0;
+    text-align: center !important;
+}

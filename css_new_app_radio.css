@@ -1,0 +1,325 @@
+/* change sidebar bg color */
+
+.layout.l9 ion-content {
+    background-color: #fff !important;
+}
+
+
+/* creat border color in menu sidebar */
+
+.layout.l9 ul.items li {
+    border-bottom: 1px solid #ff3a2e !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+/* change fotn color in sidebar menu */
+
+.layout.l9 ul.items li p {
+    font-size: 13px;
+    color: #000 !important;
+    width: 70%;
+    text-align: left;
+    margin: 0 !important;
+    font-weight: bold;
+}
+
+
+/* image add the top of menu */
+
+.layout.l9 ion-content ul:before {
+    content: " ";
+    display: block;
+    height: 100px;
+    background-image: url(https://getillustrations.com/packs/download-free-3d-app-icons-for-iphone/elements/_1x/app%20icons,%20media%20_%20stream,%20podcast,%20logo,%20streaming,%20radio,%20entertainment,%20multimedia_md.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+
+/* padding top of list menu sidebar */
+
+.layout.l9 ion-content ul {
+    padding-top: 20px;
+    padding-bottom: var(--safe-area-inset-bottom);
+}
+
+
+/* header */
+
+.bar.bar-custom {
+    border: 0;
+    background-color: #fff;
+    color: rgba(255, 255, 255, 1);
+    background-image: url(https://archive.org/download/radio-1_202111/radio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls .button {
+    min-width: 60px !important;
+    height: 60px !important;
+    min-height: 60px !important;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal ion-content {
+    background: rgb(255, 255, 255);
+    background: linear-gradient( 175deg, rgba(255, 255, 255, 1) 50%, rgba(238, 75, 99, 1) 50%) !important;
+    overflow: hidden;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal ion-content .cover {
+    background: rgb(255, 255, 255);
+    background: linear-gradient( 150deg, rgba(255, 255, 255, 1) 30%, rgba(238, 75, 99, 1) 30%) !important;
+}
+
+
+/* .audio-player.mini .remote-control.mini-player-radio {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient( 150deg, rgba(255, 255, 255, 1) 50%, rgba(238, 75, 99, 1) 50%);
+} */
+
+.mini-trackname {
+    margin-bottom: 30px;
+}
+
+.remote-control {
+    bottom: 35vh;
+    position: fixed;
+    width: 100vw;
+    background-color: transparent !important;
+    z-index: 1000;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal ion-content:before {
+    content: " ";
+    height: 160px;
+    display: block;
+    background-image: url(https://justapp.id/assets/images/index-10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #d7d1d1;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px #c5c5c5;
+    position: fixed;
+    z-index: 99;
+    margin-top: 67px;
+}
+
+
+/*
+.mini-player-radio .mini-trackname:before {
+    content: " ";
+    height: 160px;
+    display: block;
+    background-image: url(https://justapp.id/assets/images/index-10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 65px;
+    background-color: #d7d1d1;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px #c5c5c5;
+}
+*/
+
+span span.ng-binding {
+    font-size: 20px;
+}
+
+.mini-trackname [ng-click="player.reset();"] {
+    display: none;
+}
+
+[ng-click="player.reset();"] {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #ee4b63;
+}
+
+[ng-if="player.isMinimized && player.isInitialized"] .remote-control {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: #ee4b63 !important;
+    z-index: 1000;
+    border-top-left-radius: 100% 50px;
+    border-top-right-radius: 100% 50px;
+}
+
+[ng-if="player.isMinimized && player.isInitialized"] span span.ng-binding {
+    font-size: 20px;
+    margin-top: 15px !important;
+    display: flex;
+    justify-content: center;
+}
+
+[ng-if="player.isMinimized && player.isInitialized"] .mini-trackname {
+    margin-bottom: 15px;
+}
+
+
+/*button[ng-click="close()"] {
+    display: none;
+}*/
+
+button[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"] {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: #ee4b63;
+    /*display: none !important;*/
+    /*pointer-events: none !important;*/
+}
+
+button[ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"] i.icon.ion-arrow-shrink:before {
+    font-size: 32px !important;
+    color: #ee4b63 !important;
+}
+
+.mini-player-radio .mini-button i.icon:before {
+    line-height: 20px;
+    font-size: 40px;
+}
+
+.mini-controls button:nth-child(n+6) {
+    display: none;
+}
+
+.mini-controls button:nth-child(-n+4) {
+    display: none;
+}
+
+[ng-click="player.playPause()"] i.icon.ion-play:before {
+    font-size: 45px;
+}
+
+[ng-click="player.playPause()"] i.icon.ion-ios-pause:before {
+    font-size: 40px;
+}
+
+
+/*
+.remote-control.mini-player-radio:after {
+    content: " ";
+    height: 6px;
+    display: block;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 20px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 10vh;
+}*/
+
+
+/* minimized player */
+
+
+/* [ng-if="player.isMinimized && player.isInitialized"] {
+    bottom: 0;
+    background-color: #ee4b63 !important;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 35px !important;
+}
+
+[ng-if="player.isMinimized && player.isInitialized"] .mini-seekbar .mini-trackname:before {
+    display: none;
+}
+
+[ng-if="player.isMinimized && player.isInitialized"] .remote-control.mini-player-radio:after {
+    content: " ";
+    height: 6px;
+    display: block;
+    background-color: #fff;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 20px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 2vh;
+}
+
+[ng-if="player.isMinimized && player.isInitialized"] [ng-click="player.reset();"],
+[ng-if="player.isMinimized && player.isInitialized"] [ng-click="player.playerModalIsOpen ? player.closePlayerModal() : player.openPlayerModal('cover')"] {
+    display: none !important;
+} */
+
+
+/* radio playlist */
+
+
+/* [ng-click="player.openPlayerModal(player.currentTab === 'cover' ? 'playlist' : 'cover')"] {
+    display: inline !important;
+    position: fixed;
+    top: 20 px !important;
+    left: 20 px !important;
+    color: #ee4b63 !important;
+    opacity: 1 !important;
+}
+
+[ng-click="player.openPlayerModal(player.currentTab === 'cover' ? 'playlist' : 'cover')"] i.icon.ion-android-menu:before {
+    font-size: 35px !important;
+} */
+
+.bar.bar-custom .title {
+    color: rgba(238, 75, 99, 1);
+    display: none;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-leave.ng-leave-active .remote-control {
+    bottom: 0;
+    background-color: #ee4b63 !important;
+    border-radius: 20px 20px 0 0;
+}
+
+sb-media-mini-player .audio-player.mini .remote-control.mini-player-radio .mini-trackname:before {
+    display: none;
+}
+
+sb-media-mini-player .audio-player.mini .remote-control.mini-player-radio .remote-control.mini-player-radio:after {
+    display: none;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .remote-control.mini-player-radio {
+    bottom: 35vh;
+    background-color: transparent !important;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active i.icon.ion-ios-pause,
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active i.icon.ion-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ee4b63;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active .mini-controls {
+    padding-top: 13px;
+    padding-bottom: 14px;
+    height: 70px;
+}
+
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active button[ng-click="player.playPause()"],
+ion-modal-view.audio-player.media-player.media-player-modal.modal.has-background-image.slide-in-up.ng-enter.active.ng-enter-active [ng-click="player.playPause()"] {
+    background-color: #fff !important;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50px;
+}
